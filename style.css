@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col {
+  background-color: white;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #191c32; /* Fondo de color sólido */
+  color: #000000;
+}
+
+.fondo {
+  width: 100vw;
+  height: 100vh;
+  background-color: #191c32;
+  color: #ffffff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.brand {
+  margin-top: -7px;
+}
+.brand span {
+  color: rgb(128, 5, 2435);
+}
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.menu li {
+  list-style: none;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.body-index {
+  background-color: #191c32;
+}
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.info-content span {
+  color: rgb(132, 0, 255);
+}
+
+.descarga-cv {
+  padding: 10px 20px;
+  background-color: rgb(132, 0, 255);
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.main img {
+  border: 7px solid rgb(132, 0, 255);
+  height: 520px;
+}
+
+.h1-inicio {
+  color: #fff;
+}
+
+.p-footer {
+  color: white;
+}
+
+.p-main {
+  color: white;
+}
+
+.logo {
+  color: white;
+}
+
+.footer-principal {
+  padding-top: 20px;
+}
+
+img {
+  box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
+}
+
+/* PAGINA CONTACTO CSS */
+
+.body-contacto {
+  background-color: #191c32;
+}
+
+.container-contacto {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-form {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(132, 0, 255);
+  color: rgb(0, 0, 0) 313;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-contacto {
+  padding-top: 230px;
+}
+
+/* PAGINA CONTACTO CSS */
+
+/* PAGINA QUIEN SOY CSS */
+
+.body-quiensoy {
+  background-color: #191c32;
+}
+.container-quiensoy {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
+}
+.about-me {
+  background-color: rgba(132, 0, 255, 0.233);
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(193, 154, 245, 0.11);
+  text-align: justify;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.h1-quiensoy {
+  color: rgb(132, 0, 255);
+}
+
+.p-quiensoy {
+  line-height: 1.2;
+  color: #979090;
+  font-weight: bold;
+}
+
+.footer-quiensoy {
+  padding-top: 430px;
+}
+
+.h2-quiensoy {
+  color: white;
+}
+
+/* PAGINA QUIEN SOY CSS */
+
+/* PAGINA PORTAFOLIO CSS */
+
+.container 
+
+.card-img-top {
+  border-radius: 20px;
+  padding: 20px;
+}
+.card {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+.btn-primary {
+  border-radius: 50px;
+  width: 120px;
+}
+.btn-primary:hover {
+  background-color: black;
+  border: none;
+}
+
+.h1-proyectos1 {
+  color: white;
+}
+
+.body-portafolio {
+  background-color: #191c32;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.11);
+  text-align: center;
+}
+
+.footer-portafolio {
+  padding-top: 340px;
+}
+
+/* PAGINA PORTAFOLIO CSS */
+
+/* PAGINA CONTACTO EXPERIENCIA*/
+
+.body-experiencia {
+  background-color: #191c32;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-title {
+  color: rgb(132, 0, 255);
+}
+
+.experiencia-fecha {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.experiencia-descripcion {
+  color: grey;
+}
+
+.footer-experiencia {
+  padding-top: 500px;
+}
+/* PAGINA CONTACTO EXPERIENCIA */
