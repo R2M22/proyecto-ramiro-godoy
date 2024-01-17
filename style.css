@@ -95,10 +95,20 @@ h1 {
   color: white;
 }
 
-.logo {
-  color: white;
+.navcolortext {
+  padding-left: 30px;
+  color: rgb(2, 2, 2);
+  text-decoration: none
 }
 
+.nav-link {
+  color: rgb(255, 0, 0);
+  padding-left: 10px;
+
+}
+.g { 
+  color: rgb(132, 0, 255);
+}
 .footer-principal {
   padding-top: 20px;
 }
