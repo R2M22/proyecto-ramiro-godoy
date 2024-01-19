@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap");
 
-
 * {
   font-weight: bold;
   margin: 0;
@@ -12,9 +11,16 @@
   background-color: white;
 }
 
-.logo{ 
+.logo {
   color: #fff;
-font-weight: bold;
+  font-weight: bold;
+}
+
+.p-footer {
+  font-size: small;
+  color: grey;
+  font-family:sans-serif
+
 }
 
 body {
@@ -99,8 +105,8 @@ h1 {
 }
 
 #navbarNav {
-padding-left: 50px;
-justify-content: end;
+  padding-left: 50px;
+  justify-content: end;
 }
 .p-main {
   color: white;
@@ -109,16 +115,15 @@ justify-content: end;
 .navcolortext {
   padding-left: 30px;
   color: rgb(2, 2, 2);
-  text-decoration: none
+  text-decoration: none;
 }
 
 .nav-link {
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
   padding-left: 10px;
-
 }
-.g { 
+.g {
   color: rgb(132, 0, 255);
 }
 .footer-principal {
@@ -165,7 +170,6 @@ input {
 }
 
 button {
-  
   padding: 10px;
   background-color: rgb(132, 0, 255);
   color: rgb(0, 0, 0) 313;
@@ -195,10 +199,12 @@ button {
 }
 .about-me {
   background-color: rgba(132, 0, 255, 0.233);
-  padding: 100px;
+  max-width: 850px;
+  margin: 80px auto;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(193, 154, 245, 0.11);
-  text-align: justify;
+
 }
 
 header {
@@ -227,10 +233,6 @@ header {
 /* PAGINA QUIEN SOY CSS */
 
 /* PAGINA PORTAFOLIO CSS */
-
-.card-body {
-}
-
 .card-img-top {
   border-radius: 20px;
   padding: 20px;
@@ -273,6 +275,13 @@ header {
 }
 
 /* PAGINA PORTAFOLIO CSS */
+/* CARDS DE PORTAFOLIO CSS */
+.card {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* CARDS DE PORTAFOLIO CSS */
 
 /* PAGINA CONTACTO EXPERIENCIA*/
 
@@ -307,3 +316,26 @@ header {
   padding-top: 500px;
 }
 /* PAGINA CONTACTO EXPERIENCIA */
+
+/* MEDIAQUERIES */
+/* Celular un poco mas grande para que no se vaya para el costado */
+@media (max-width:765px) {
+  .container {
+    padding-left: 130px;
+  }
+  .main {
+    height:80vh;
+    flex-direction: column;
+    display: flex;
+  }
+  .footer-principal {
+    padding-top: 100px;
+  }
+}
+/* tablets */
+
+
+/* computadoras */
+@media (max-width:1200px) {
+  
+}
