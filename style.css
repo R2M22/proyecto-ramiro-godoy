@@ -8,19 +8,17 @@
 }
 
 .col {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .logo {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
 }
 
 .p-footer {
   font-size: small;
-  color: grey;
-  font-family:sans-serif
-
+  font-family: sans-serif;
 }
 
 body {
@@ -127,7 +125,7 @@ h1 {
   color: rgb(132, 0, 255);
 }
 .footer-principal {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 img {
@@ -204,7 +202,6 @@ button {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(193, 154, 245, 0.11);
-
 }
 
 header {
@@ -319,23 +316,21 @@ header {
 
 /* MEDIAQUERIES */
 /* Celular un poco mas grande para que no se vaya para el costado */
-@media (max-width:765px) {
+@media (max-width: 765px) {
   .container {
     padding-left: 130px;
   }
   .main {
-    height:80vh;
+    height: 90vh;
     flex-direction: column;
     display: flex;
   }
   .footer-principal {
-    padding-top: 100px;
+    padding-top: 150px;
   }
 }
 /* tablets */
 
-
 /* computadoras */
-@media (max-width:1200px) {
-  
+@media (max-width: 1200px) {
 }
