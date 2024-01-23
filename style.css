@@ -1,102 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap");
-
+/* //////////////////////COSAS PAGINA GENERAL////////////////////// */
 * {
   font-weight: bold;
   margin: 0;
   padding: 0;
+  min-width: 0;
   box-sizing: border-box;
 }
-
-.col {
-  background-color: rgb(255, 255, 255);
-}
-
 .logo {
   color: #ffffff;
   font-weight: bold;
 }
-
+.fondoportafolio {
+  background: rgb(132, 0, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(132, 0, 255, 1) 0%,
+    rgba(22, 21, 21, 0.9920168751094187) 26%
+  );
+  background: rgb(132, 0, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(132, 0, 255, 1) 0%,
+    rgba(22, 21, 21, 0.9920168751094187) 15%
+  );
+}
 .p-footer {
   font-size: small;
   font-family: sans-serif;
-}
-
-body {
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  background-color: #191c32; /* Fondo de color sólido */
-  color: #000000;
-}
-
-.fondo {
-  width: 100vw;
-  height: 100vh;
-  background-color: #191c32;
-  color: #ffffff;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 2em;
 }
-.brand {
-  margin-top: -7px;
-}
-.brand span {
-  color: rgb(128, 5, 2435);
-}
-.menu {
-  display: flex;
-  width: 50%;
-  justify-content: space-around;
-}
-.menu li {
-  list-style: none;
-}
-.menu a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-}
-
-.body-index {
-  background-color: #191c32;
-}
 .main {
   margin: 0 auto;
   width: 80vw;
-  height: 80vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2em;
 }
-
 h1 {
   font-size: 3rem;
 }
-
-.info-content span {
-  color: rgb(132, 0, 255);
+.col {
+  background-color: rgb(255, 255, 255);
 }
-
+/* //////////////////////COSAS PAGINA GENERAL////////////////////// */
+/* //////////////////////INICIO////////////////////// */
 .descarga-cv {
   padding: 10px 20px;
   background-color: rgb(132, 0, 255);
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   margin-top: 10px;
   cursor: pointer;
 }
 .main img {
-  border: 7px solid rgb(132, 0, 255);
+  /*border: 4px solid rgb(132, 0, 255);*/
+  border-radius: 20px;
   height: 520px;
+  box-shadow: 0 0 80px rgba(245, 244, 244, 0.1);
 }
-
+.main img {
+  /*border: 4px solid rgb(132, 0, 255);*/
+  border-radius: 20px;
+  height: 520px;
+  box-shadow: 0 0 80px rgba(245, 244, 244, 0.1);
+}
 .h1-inicio {
   color: #fff;
+  display: flex;
 }
+.textoindex {
+  text-align: left;
+}
+.span-godoy {
+  display: block;
+}
+/* //////////////////////INICIO////////////////////// */
 
 .p-footer {
   color: white;
@@ -108,6 +93,7 @@ h1 {
 }
 .p-main {
   color: white;
+  text-align: left;
 }
 
 .navcolortext {
@@ -128,13 +114,10 @@ h1 {
   padding-top: 10px;
 }
 
-img {
-  box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
-}
-
 /* PAGINA CONTACTO CSS */
 
 .body-contacto {
+  height: 100vh;
   background-color: #191c32;
 }
 
@@ -176,15 +159,12 @@ button {
   cursor: pointer;
 }
 
-.footer-contacto {
-  padding-top: 230px;
-}
-
 /* PAGINA CONTACTO CSS */
 
 /* PAGINA QUIEN SOY CSS */
 
 .body-quiensoy {
+  height: 100vh;
   background-color: #191c32;
 }
 .container-quiensoy {
@@ -196,7 +176,7 @@ button {
   box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
 }
 .about-me {
-  background-color: rgba(132, 0, 255, 0.233);
+  background-color: rgba(132, 0, 255);
   max-width: 850px;
   margin: 80px auto;
   padding: 20px;
@@ -282,46 +262,62 @@ header {
 
 /* PAGINA CONTACTO EXPERIENCIA*/
 
-.body-experiencia {
-  background-color: #191c32;
-}
-
-.main-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.experience-item {
-  margin-bottom: 30px;
-}
-
-.experience-title {
-  color: rgb(132, 0, 255);
-}
-
-.experiencia-fecha {
+h3 {
   font-weight: bold;
-  color: #ffffff;
+  color: white;
 }
 
-.experiencia-descripcion {
+p {
   color: grey;
 }
 
-.footer-experiencia {
-  padding-top: 500px;
+.main-content {
+  height: 100vh;
+  padding-right: 100px;
+}
+ul.timeline-3 {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline-3:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline-3 > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline-3 > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid rgb(132, 0, 255);
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
 }
 /* PAGINA CONTACTO EXPERIENCIA */
 
 /* MEDIAQUERIES */
 /* Celular un poco mas grande para que no se vaya para el costado */
 @media (max-width: 765px) {
+  .texto-footer {
+    padding-right: 110px;
+  }
   .container {
     padding-left: 130px;
   }
   .main {
-    height: 90vh;
+    height: 125vh;
     flex-direction: column;
     display: flex;
   }
@@ -333,4 +329,41 @@ header {
 
 /* computadoras */
 @media (max-width: 1200px) {
+}
+
+.loader {
+  position: relative;
+  overflow: hidden;
+  border-right: 3px solid;
+  width: 0px;
+  animation: typewriter 2s steps(10) infinite alternate,
+    blink 0.5s steps(10) infinite;
+}
+
+.loader-text {
+  font-size: 50px;
+  font-weight: 700;
+  background: rgb(132, 0, 255);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 190px;
+  }
+}
+
+@keyframes blink {
+  0% {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  100% {
+    border-right-color: transparent;
+  }
 }
