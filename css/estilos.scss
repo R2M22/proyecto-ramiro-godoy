@@ -1,0 +1,50 @@
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap");
+@import "./partials/reset";
+@import"./partials/footer";
+@import"./partials/variables";
+@import"./partials/nav";
+@import"./partials/index";
+@import"./partials/contacto";
+@import"./partials/quiensoy";
+@import"./partials/portafolio";
+@import"./partials/experiencia";
+
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+
+
+
+
+
+/* MEDIAQUERIES */
+/* Celular un poco mas grande para que no se vaya para el costado */
+@media (max-width: 765px) {
+  .texto-footer {
+    padding-right: 110px;
+  }
+  .container {
+    padding-left: 130px;
+  }
+  .main {
+    height: 125vh;
+    flex-direction: column;
+    display: flex;
+  }
+  .footer-principal {
+    padding-top: 150px;
+  }
+}
+/* tablets */
+
+/* computadoras */
+@media (max-width: 1200px) {
+}
+

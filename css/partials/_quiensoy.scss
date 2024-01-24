@@ -1,0 +1,41 @@
+.body-quiensoy {
+  height: 100vh;
+  background-color: #191c32;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-me {
+  /* CUADRO DE QUIEN SOY DATA*/
+  background-color: $colorprincipal;
+  max-width: 850px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(193, 154, 245, 0.11);
+
+  .p-quiensoy {
+    line-height: 1.2;
+    color: #979090;
+    font-weight: bold;
+  }
+  .h2-quiensoy {
+    color: white;
+  }
+}
+
+.container-quiensoy {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
+
+  .h1-quiensoy {
+    color: $colorprincipal;
+  }
+}

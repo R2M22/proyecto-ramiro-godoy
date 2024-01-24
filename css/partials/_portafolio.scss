@@ -1,0 +1,16 @@
+.card {
+    border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+
+  .card-body {
+    padding: 25px;
+    margin-top: -15px;
+  }
+
+  .card-img-top {
+    border-radius: 20px;
+    padding: 20px;
+  }
+}

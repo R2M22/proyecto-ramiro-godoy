@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  
+    .logo {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  
+    .nav-link {
+      font-family: "Montserrat", sans-serif;
+      color: rgb(255, 255, 255);
+      padding-left: 10px;
+    }
+
+    #navbarNav {
+        padding-left: 50px;
+        justify-content: end;
+      }
+  }
+
+  .g {
+    color:$colorprincipal;
+  }
+  
+ 

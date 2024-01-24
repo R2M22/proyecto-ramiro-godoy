@@ -1,0 +1,101 @@
+.fondoportafolio {
+  background: $colorprincipal;
+  background: linear-gradient(
+    0deg,
+    $colorprincipal 0%,
+    rgba(22, 21, 21, 0.9920168751094187) 26%
+  );
+  background: $colorprincipal;
+  background: linear-gradient(
+    0deg,
+    $colorprincipal 0%,
+    rgba(22, 21, 21, 0.9920168751094187) 15%
+  );
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+
+.main img {
+    /*border: 4px solid rgb(132, 0, 255);*/
+    border-radius: 20px;
+    height: 520px;
+    box-shadow: 0 0 80px rgba(245, 244, 244, 0.1);
+    /*filter: drop-shadow(0 1px 5px white);*/
+  }
+.main {
+    
+  margin: 0 auto;
+  width: 80vw;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2em;
+
+  .loader {
+    position: relative;
+    overflow: hidden;
+    border-right: 3px solid;
+    width: 0px;
+    animation: typewriter 2s steps(10) infinite alternate,
+      blink 0.5s steps(10) infinite;
+  }
+  
+  .loader-text {
+    font-size: 50px;
+    font-weight: 700;
+    background: $colorprincipal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes typewriter {
+    0% {
+      width: 0px;
+    }
+  
+    100% {
+      width: 190px;
+    }
+  }
+  
+  @keyframes blink {
+    0% {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+  
+    100% {
+      border-right-color: transparent;
+    }
+  }
+ 
+  .loader-container{
+    width: 6.5ch;
+  }
+
+ 
+  .descarga-cv {
+    padding: 10px 20px;
+    background-color: rgb(132, 0, 255);
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    filter: drop-shadow(0 1px 8px white);
+  }
+  .h1-inicio {
+    color: #fff;
+    display: flex;
+  }
+
+  .textoindex {
+    text-align: left;
+  }
+
+  .p-main {
+    color: white;
+    text-align: left;
+  }
+}

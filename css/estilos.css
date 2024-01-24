@@ -1,0 +1,288 @@
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap");
+* {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.navbar .logo {
+  color: #ffffff;
+  font-weight: bold;
+}
+.navbar .nav-link {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+}
+.navbar #navbarNav {
+  padding-left: 50px;
+  justify-content: end;
+}
+
+.g {
+  color: #8400FF;
+}
+
+.fondoportafolio {
+  background: #8400FF;
+  background: linear-gradient(0deg, #8400FF 0%, rgba(22, 21, 21, 0.9920168751) 26%);
+  background: #8400FF;
+  background: linear-gradient(0deg, #8400FF 0%, rgba(22, 21, 21, 0.9920168751) 15%);
+}
+.fondoportafolio h1 {
+  font-size: 3rem;
+}
+
+.main img {
+  /*border: 4px solid rgb(132, 0, 255);*/
+  border-radius: 20px;
+  height: 520px;
+  box-shadow: 0 0 80px rgba(245, 244, 244, 0.1);
+  /*filter: drop-shadow(0 1px 5px white);*/
+}
+
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2em;
+}
+.main .loader {
+  position: relative;
+  overflow: hidden;
+  border-right: 3px solid;
+  width: 0px;
+  animation: typewriter 2s steps(10) infinite alternate, blink 0.5s steps(10) infinite;
+}
+.main .loader-text {
+  font-size: 50px;
+  font-weight: 700;
+  background: #8400FF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes typewriter {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 190px;
+  }
+}
+@keyframes blink {
+  0% {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}
+.main .loader-container {
+  width: 6.5ch;
+}
+.main .descarga-cv {
+  padding: 10px 20px;
+  background-color: rgb(132, 0, 255);
+  border: none;
+  border-radius: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  filter: drop-shadow(0 1px 8px white);
+}
+.main .h1-inicio {
+  color: #fff;
+  display: flex;
+}
+.main .textoindex {
+  text-align: left;
+}
+.main .p-main {
+  color: white;
+  text-align: left;
+}
+
+.body-contacto {
+  height: 100vh;
+}
+
+.container-contacto {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container-contacto .contacto-form {
+  text-align: center;
+}
+.container-contacto form {
+  display: flex;
+  flex-direction: column;
+}
+.container-contacto label {
+  margin-bottom: 8px;
+}
+.container-contacto input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.container-contacto .btn-contacto {
+  padding: 10px;
+  background-color: #8400FF;
+  color: rgb(0, 0, 0) 313;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.body-quiensoy {
+  height: 100vh;
+  background-color: #191c32;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-me {
+  /* CUADRO DE QUIEN SOY DATA*/
+  background-color: #8400FF;
+  max-width: 850px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(193, 154, 245, 0.11);
+}
+.about-me .p-quiensoy {
+  line-height: 1.2;
+  color: #979090;
+  font-weight: bold;
+}
+.about-me .h2-quiensoy {
+  color: white;
+}
+
+.container-quiensoy {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
+}
+.container-quiensoy .h1-quiensoy {
+  color: #8400FF;
+}
+
+.card {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.card .card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+.card .card-img-top {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.main-content {
+  height: 100vh;
+  padding-right: 100px;
+}
+.main-content p {
+  color: grey;
+}
+.main-content h3 {
+  font-weight: bold;
+  color: white;
+}
+.main-content ul.timeline-3 {
+  list-style-type: none;
+  position: relative;
+}
+.main-content ul.timeline-3:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+.main-content ul.timeline-3 > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+.main-content ul.timeline-3 > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #8400FF;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* MEDIAQUERIES */
+/* Celular un poco mas grande para que no se vaya para el costado */
+@media (max-width: 765px) {
+  .texto-footer {
+    padding-right: 110px;
+  }
+  .container {
+    padding-left: 130px;
+  }
+  .main {
+    height: 125vh;
+    flex-direction: column;
+    display: flex;
+  }
+  .footer-principal {
+    padding-top: 150px;
+  }
+}
+/* tablets */
+/* computadoras *//*# sourceMappingURL=estilos.css.map */
