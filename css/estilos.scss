@@ -13,63 +13,10 @@
 @import "./partials/quiensoy";
 @import "./partials/portafolio";
 @import "./partials/experiencia";
+@import"./partials/media-queries";
 
 /* //////////////////////@IMPORTS////////////////////// */
 /* //////////////////////@IMPORTS////////////////////// */
 /* //////////////////////@IMPORTS////////////////////// */
 /* //////////////////////@IMPORTS////////////////////// */
 /* //////////////////////@IMPORTS////////////////////// */
-
-/* MEDIAQUERIES */
-/* Celular un poco mas grande para que no se vaya para el costado */
-@media (max-width: 765px) {
-  .texto-footer {
-    padding-right: 110px;
-  }
-  .container {
-    padding-left: 130px;
-  }
-  .main {
-    height: 125vh;
-    flex-direction: column;
-    display: flex;
-  }
-  .footer-principal {
-    padding-top: 150px;
-  }
-}
-
-@media (min-width: 765px) {
-.main{
-    padding: 0px;
-    padding-right: 80px;
-}
-.loader-text{
-    padding-right: 10rem;
-}
-
-.h1-inicio {
-    padding-right: 2rem;
-}
-
-.h1-main {
-    padding-right: 7rem;
-}
-  }
-
-/* tablets */
-@media (max-width: 810px) {
-  .cardindex {
-    padding-right: 10px;
-  }
-  .loader-text {
-    font-size: 20px;
-    padding-right: 4rem;
-  }
-}
-/* computadoras */
-@media (min-width: 1100px) {
-  .cardindex {
-    padding-left: 8rem;
-  }
-}

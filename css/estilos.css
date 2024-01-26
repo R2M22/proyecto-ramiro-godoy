@@ -124,6 +124,7 @@ p {
 .main .h1-inicio {
   color: #fff;
   display: flex;
+  flex-wrap: wrap;
 }
 .main .textoindex {
   text-align: left;
@@ -131,6 +132,9 @@ p {
 .main .p-main {
   color: white;
   text-align: left;
+}
+.main .godoy {
+  display: block;
 }
 
 .body-contacto {
@@ -267,57 +271,136 @@ header {
   z-index: 400;
 }
 
-/* //////////////////////@IMPORTS////////////////////// */
-/* //////////////////////@IMPORTS////////////////////// */
-/* //////////////////////@IMPORTS////////////////////// */
-/* //////////////////////@IMPORTS////////////////////// */
-/* //////////////////////@IMPORTS////////////////////// */
-/* MEDIAQUERIES */
-/* Celular un poco mas grande para que no se vaya para el costado */
-@media (max-width: 765px) {
-  .texto-footer {
-    padding-right: 110px;
-  }
-  .container {
-    padding-left: 130px;
-  }
+@media (max-width: 768px) {
   .main {
-    height: 125vh;
+    height: 135vh;
     flex-direction: column;
     display: flex;
+    padding-right: 100px;
+    font-size: 95%;
+  }
+  .main-portafolio {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+  }
+}
+/* MEDIAQUERIES CELULAR */
+/* MEDIAQUERIES CELULAR */
+/* MEDIAQUERIES CELULAR */
+@media (max-width: 480px) {
+  .container text-center {
+    padding-left: px;
+  }
+  .container {
+    padding-left: 120px;
+  }
+  .main {
+    height: 135vh;
+    flex-direction: column;
+    display: flex;
+    padding-right: 100px;
+    font-size: 95%;
   }
   .footer-principal {
     padding-top: 150px;
+    width: 90vw;
   }
-}
-@media (min-width: 765px) {
-  .main {
-    padding: 0px;
-    padding-right: 80px;
+  .fotomia {
+    width: 170%; /* O el ancho que desees */
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
-  .loader-text {
-    padding-right: 10rem;
-  }
-  .h1-inicio {
-    padding-right: 2rem;
-  }
-  .h1-main {
-    padding-right: 7rem;
-  }
-}
-/* tablets */
-@media (max-width: 810px) {
   .cardindex {
-    padding-right: 10px;
+    width: 70vw; /* El 50% del ancho del viewport */
+    height: 60vh; /* El 50% del alto del viewport */
+    margin-right: 12rem; /* movimiento hacia la derecha de la foto */
+    padding-left: 70px;
   }
-  .loader-text {
-    font-size: 20px;
-    padding-right: 4rem;
+  #sticky-footer {
+    padding-right: 100px;
   }
 }
-/* computadoras */
-@media (min-width: 1100px) {
-  .cardindex {
-    padding-left: 8rem;
-  }
-}/*# sourceMappingURL=estilos.css.map */
+.main-content {
+  padding-right: 95px;
+  height: 110vh;
+}
+
+/* COSAS PORTAFOLIO */
+/* COSAS PORTAFOLIO */
+/* COSAS PORTAFOLIO */
+.main-portafolio {
+  display: flex;
+  flex-direction: column;
+  padding-left: 45px;
+}
+.main-portafolio .container {
+  padding-left: 10px;
+  background-color: none;
+}
+
+/* COSAS PORTAFOLIO */
+/* COSAS PORTAFOLIO */
+/* COSAS PORTAFOLIO */
+/* COSAS CONTACTO */
+/* COSAS CONTACTO */
+/* COSAS CONTACTO */
+.fondoportafolio-contacto {
+  height: 130vh;
+  background: #8400FF;
+  background: linear-gradient(0deg, #8400FF 0%, rgba(22, 21, 21, 0.9920168751) 26%);
+  background: #8400FF;
+  background: linear-gradient(0deg, #8400FF 0%, rgba(22, 21, 21, 0.9920168751) 15%);
+}
+.fondoportafolio-contacto h1 {
+  font-size: 3rem;
+}
+.fondoportafolio-contacto .main-contacto {
+  padding: 20px;
+  height: 105vh;
+}
+
+/* QUIEN-SOY */
+/* QUIEN-SOY */
+/* QUIEN-SOY */
+.main-quiensoy {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.main-quiensoy .about-me {
+  padding: 50px;
+}
+
+.fondoportafolio-quiensoy {
+  height: 130vh;
+  background: #8400FF;
+  background: linear-gradient(0deg, #8400FF 0%, rgba(22, 21, 21, 0.9920168751) 26%);
+  background: #8400FF;
+  background: linear-gradient(0deg, #8400FF 0%, rgba(22, 21, 21, 0.9920168751) 15%);
+  height: 145vh;
+}
+.fondoportafolio-quiensoy .main-quiensoy {
+  padding: 20px;
+  height: 90vh;
+}
+
+.texto-footer {
+  align-content: center;
+}
+
+.container-quiensoy {
+  padding: 20px;
+}
+
+/* EXPERIENCIA */
+/* EXPERIENCIA */
+/* EXPERIENCIA */
+.main-experiencia {
+  height: 150vh;
+}
+
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////@IMPORTS////////////////////// *//*# sourceMappingURL=estilos.css.map */

@@ -93,6 +93,7 @@
   .h1-inicio {
     color: #fff;
     display: flex;
+    flex-wrap: wrap;
   }
 
   .textoindex {
@@ -102,5 +103,9 @@
   .p-main {
     color: white;
     text-align: left;
+  }
+
+  .godoy{
+    display: block;
   }
 }
