@@ -41,6 +41,18 @@ p {
   padding-left: 50px;
   justify-content: end;
 }
+.navbar .nav-item {
+  border-radius: 10px;
+  text-decoration: none;
+  color: #8400FF;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.navbar .nav-item:hover {
+  border-radius: 12px;
+  box-shadow: 0 0 20px;
+  transform: translateY(-5px);
+  color: #8400FF;
+}
 
 .g {
   color: #8400FF;
@@ -190,7 +202,7 @@ header {
 }
 .about-me .p-quiensoy {
   line-height: 1.2;
-  color: #979090;
+  color: #ffffff;
   font-weight: bold;
 }
 .about-me .h2-quiensoy {

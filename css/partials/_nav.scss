@@ -18,6 +18,24 @@
         padding-left: 50px;
         justify-content: end;
       }
+
+      .nav-item{
+        border-radius: 10px;
+        text-decoration: none;
+        color: $colorprincipal;
+        transition: box-shadow 0.3s, transform 0.3s;
+
+        &:hover {
+          border-radius: 12px;
+          box-shadow: 0 0 20px;
+          transform: translateY(-5px);
+          color: $colorprincipal;
+
+        }
+
+      }
+
+
   }
 
   .g {
