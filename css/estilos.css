@@ -84,7 +84,6 @@ p {
   margin: auto;
   margin-left: 5rem;
   width: 80vw;
-  height: 75vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -147,10 +146,6 @@ p {
 }
 .main .godoy {
   display: block;
-}
-
-.body-contacto {
-  height: 100vh;
 }
 
 .container-contacto {
@@ -236,8 +231,12 @@ header {
   padding: 20px;
 }
 
+.cards-portafolio {
+  display: flex;
+  justify-content: center;
+}
+
 .main-content {
-  height: 100vh;
   padding-right: 100px;
 }
 .main-content p {
@@ -303,7 +302,6 @@ header {
     padding-left: 120px;
   }
   .main {
-    height: 135vh;
     flex-direction: column;
     display: flex;
     padding-right: 100px;
@@ -320,7 +318,7 @@ header {
   }
   .cardindex {
     width: 70vw; /* El 50% del ancho del viewport */
-    height: 60vh; /* El 50% del alto del viewport */
+    /* El 50% del alto del viewport */
     margin-right: 12rem; /* movimiento hacia la derecha de la foto */
     padding-left: 70px;
   }
@@ -330,7 +328,6 @@ header {
 }
 .main-content {
   padding-right: 95px;
-  height: 110vh;
 }
 
 /* COSAS PORTAFOLIO */
@@ -353,7 +350,6 @@ header {
 /* COSAS CONTACTO */
 /* COSAS CONTACTO */
 .fondoportafolio-contacto {
-  height: 130vh;
   background: #8400FF;
   background: linear-gradient(0deg, #8400FF 0%, rgba(22, 21, 21, 0.9920168751) 26%);
   background: #8400FF;
@@ -364,7 +360,6 @@ header {
 }
 .fondoportafolio-contacto .main-contacto {
   padding: 20px;
-  height: 105vh;
 }
 
 /* QUIEN-SOY */
@@ -379,16 +374,13 @@ header {
 }
 
 .fondoportafolio-quiensoy {
-  height: 130vh;
   background: #8400FF;
   background: linear-gradient(0deg, #8400FF 0%, rgba(22, 21, 21, 0.9920168751) 26%);
   background: #8400FF;
   background: linear-gradient(0deg, #8400FF 0%, rgba(22, 21, 21, 0.9920168751) 15%);
-  height: 145vh;
 }
 .fondoportafolio-quiensoy .main-quiensoy {
   padding: 20px;
-  height: 90vh;
 }
 
 .texto-footer {
@@ -402,12 +394,12 @@ header {
 /* EXPERIENCIA */
 /* EXPERIENCIA */
 /* EXPERIENCIA */
-.main-experiencia {
-  height: 150vh;
-}
-
 /* //////////////////////@IMPORTS////////////////////// */
 /* //////////////////////@IMPORTS////////////////////// */
 /* //////////////////////@IMPORTS////////////////////// */
 /* //////////////////////@IMPORTS////////////////////// */
-/* //////////////////////@IMPORTS////////////////////// *//*# sourceMappingURL=estilos.css.map */
+/* //////////////////////@IMPORTS////////////////////// */
+/* //////////////////////.DIV FOOTER ES LA FRANJA VIOLETA DEL FOOTER////////////////////// */
+/* .div-footer{
+    height: 50vh;
+} *//*# sourceMappingURL=estilos.css.map */

@@ -18,20 +18,18 @@
 
 .cardindex {
   padding-bottom: 50px;
-  
 }
 .main img {
-    /*border: 4px solid rgb(132, 0, 255);*/
-    border-radius: 20px;
-    height: 520px;
-    box-shadow: 0 0 80px rgba(245, 244, 244, 0.1);
-    /*filter: drop-shadow(0 1px 5px white);*/
-  }
+  /*border: 4px solid rgb(132, 0, 255);*/
+  border-radius: 20px;
+  height: 520px;
+  box-shadow: 0 0 80px rgba(245, 244, 244, 0.1);
+  /*filter: drop-shadow(0 1px 5px white);*/
+}
 .main {
   margin: auto;
   margin-left: 5rem;
   width: 80vw;
-  height: 75vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -45,7 +43,7 @@
     animation: typewriter 2s steps(10) infinite alternate,
       blink 0.5s steps(10) infinite;
   }
-  
+
   .loader-text {
     padding-right: 10px;
     font-size: 50px;
@@ -54,33 +52,31 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+
   @keyframes typewriter {
     0% {
       width: 0px;
     }
-  
+
     100% {
       width: 190px;
     }
   }
-  
+
   @keyframes blink {
     0% {
       border-right-color: rgba(255, 255, 255, 0.75);
     }
-  
+
     100% {
       border-right-color: transparent;
     }
   }
- 
-  .loader-container{
 
+  .loader-container {
     width: 6.5ch;
   }
 
- 
   .descarga-cv {
     padding: 10px 20px;
     background-color: rgb(132, 0, 255);
@@ -105,7 +101,7 @@
     text-align: left;
   }
 
-  .godoy{
+  .godoy {
     display: block;
   }
 }

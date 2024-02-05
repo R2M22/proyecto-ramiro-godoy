@@ -28,7 +28,6 @@
       padding-left: 120px;
     }
     .main {
-      height: 135vh;
       flex-direction: column;
       display: flex;
       padding-right: 100px;
@@ -48,7 +47,7 @@
   
     .cardindex {
       width: 70vw; /* El 50% del ancho del viewport */
-      height: 60vh; /* El 50% del alto del viewport */
+      /* El 50% del alto del viewport */
       margin-right: 12rem;/* movimiento hacia la derecha de la foto */
       padding-left: 70px;
     }
@@ -60,7 +59,6 @@
   
   .main-content {
     padding-right: 95px;
-    height: 110vh;
   }
   
   
@@ -94,7 +92,6 @@
   
   
   .fondoportafolio-contacto {
-    height: 130vh;
     background: $colorprincipal;
     background: linear-gradient(
       0deg,
@@ -113,7 +110,6 @@
   
     .main-contacto {
       padding: 20px;
-      height: 105vh;
     }
   }
   
@@ -132,7 +128,6 @@
   }
   
   .fondoportafolio-quiensoy{
-    height: 130vh;
     background: $colorprincipal;
     background: linear-gradient(
       0deg,
@@ -145,10 +140,8 @@
       $colorprincipal 0%,
       rgba(22, 21, 21, 0.9920168751094187) 15%
     );
-    height: 145vh;
     .main-quiensoy{
       padding: 20px;
-      height: 90vh;
     }
   }
   
@@ -164,6 +157,3 @@
   /* EXPERIENCIA */
   /* EXPERIENCIA */
   /* EXPERIENCIA */
-  .main-experiencia{
-    height: 150vh;
-  }
